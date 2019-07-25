@@ -2,92 +2,92 @@ require 'test_helper'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
-    get root_url
+    get root_path
     assert_response :success
   end
 
   test "should get about" do
-    get static_pages_about_url
+    get about_path
     assert_response :success
   end
 
   test "should get help_center" do
-    get static_pages_help_center_url
+    get help_center_path
     assert_response :success
   end
 
   test "should get blog" do
-    get static_pages_blog_url
+    get blog_path
     assert_response :success
   end
 
   test "should get status" do
-    get static_pages_status_url
+    get status_path
     assert_response :success
   end
 
   test "should get jobs" do
-    get static_pages_jobs_url
+    get jobs_path
     assert_response :success
   end
 
   test "should get terms" do
-    get static_pages_terms_url
+    get terms_path
     assert_response :success
   end
 
   test "should get privacy_policy" do
-    get static_pages_privacy_policy_url
+    get privacy_policy_path
     assert_response :success
   end
 
   test "should get cookies" do
-    get static_pages_cookies_url
+    get cookies_path
     assert_response :success
   end
 
   test "should get ads_info" do
-    get static_pages_ads_info_url
+    get ads_info_path
     assert_response :success
   end
 
   test "should get brand" do
-    get static_pages_brand_url
+    get brand_path
     assert_response :success
   end
 
   test "should get apps" do
-    get static_pages_apps_url
+    get apps_path
     assert_response :success
   end
 
   test "should get advertise" do
-    get static_pages_advertise_url
+    get advertise_path
     assert_response :success
   end
 
   test "should get merketing" do
-    get static_pages_merketing_url
+    get merketing_path
     assert_response :success
   end
 
   test "should get business" do
-    get static_pages_business_url
+    get business_path
     assert_response :success
   end
 
   test "should get developers" do
-    get static_pages_developers_url
+    get developers_path
     assert_response :success
   end
 
   test "should get directory" do
-    get static_pages_directory_url
+    get directory_path
     assert_response :success
   end
 
   test "should get settings" do
-    get static_pages_settings_url
+    get settings_path
     assert_response :success
   end
 

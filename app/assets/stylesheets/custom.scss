@@ -1,0 +1,76 @@
+@import "bootstrap";
+
+/* universal */
+html {
+  height: 100%;
+}
+
+.container-fluid {
+  height: 100%; 
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* home */
+
+.home-top {
+  height: 100%;
+  margin-top: -60px;
+}
+
+.home-left {
+  background-color: #3399FF;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+    .home-text {
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    }
+}
+
+.home-right {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-footer {
+  text-align: center;
+}
+
+.home-footer-link {
+  display: inline;
+  padding: 5px 10px;
+  
+   a {
+     text-decoration: none;
+     color: #AAAAAA;
+     font-size: 13px;
+   }
+}
+
